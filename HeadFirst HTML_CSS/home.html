@@ -184,9 +184,16 @@
 		<li> How to use the (span) element to divide the inline content similar to (div). span class = ''. </li>
 		<li> What pseudo-classes are and how they aren't seen in XHTML like :link and :hover. </li>
 		<li> How to change the color and background color of links like #elixirs a:link. </li>
-		
-		
+		<li> How to calculate the specificty by the '000' rule. The first '0' is the number of ids of selector. The second '0' is if the selector has any classes or pseudo-classes. The third '0' is if the selector has any element names. The higher number is more specific.</li>
+		<li> How to cascade (browser decides which stylesheet to use) /li>
 		</ul>
+		<ol>
+		<li> Gather the stylesheets the author wrote, reader wrote, and browser's default styles. </li>
+		<li> Find all the declarations that match. </li>
+		<li> Take all the matches and sort them by author, reader, then broswer. </li>
+		<li> Sort the declarations by how specific they are. h1.blueberry is more specific then h1 in author. </li>
+		<li> Sort any conflicting rules so the ones that appear later are more important. </li>
+		
 				
 		<h3> Chapter 12 </h3>
 		
