@@ -15,7 +15,7 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin:           0px 330px 10px 10px;
 }
 
 #sidebar {
@@ -23,6 +23,10 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
+  position:         absolute;
+  top:                  128px;
+  right:                0px;
+  width:                280px;
 }
 
 #footer {
@@ -30,7 +34,7 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  margin:           10px 330px 10px 10px;
   font-size:        90%;
 }
 
@@ -53,8 +57,39 @@ a:link {
   text-decoration:  none;
   border-bottom:    thin dotted #b76666;
 }
+
 a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
+
+#award {
+    position:   absolute;
+    top:            30px;
+    left:           365px;
+    z-index:    99;
+}
+
+#coupon {
+    position: fixed;
+    top:     300px;
+    left:       -90px;
+}
+
+#coupon img {
+    border: none;
+    }
+    
+#coupon a:link {
+    border: none;
+    }
+    
+#coupon a:visited {
+    border: none;
+    }
+    
+.beanheading img {
+    position: relative;
+    left:          120px;
+    }
