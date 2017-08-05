@@ -1,18 +1,67 @@
+body {
+	font-family: arial;
+	font-size: 15px;
+		}
+
 h1 {
 		border-bottom: 1px solid black;
+		text-align: center;
 		}
 		
-p.chargers{
+.inline-block {
+		zoom: 1;
+		*display: inline;
+	}
+	
+.twenty-five-perc
+{
+	width: 22%;
+	}
+
+.broncos{
+		margin-left: 5%;
+		background-color: #fc4c02;
+		border-style: inset;
+		}
+		
+.broncos a:visited, .broncos a:link, p.denver{
 		color: darkblue;
 		}
 		
-p.chiefs{
-		color: darkred;
-		}
-
-#broncos{
-		background-color: orange;
-		color: black;
-		width: 200px;
+.chargers{
+		background-color: rgb(12, 35, 64);
 		border-style: inset;
 		}
+		
+.chargers a:visited, .chargers a:link, p.la{
+		color: yellow;
+		}
+		
+.chiefs{
+		background-color: #c81023;
+		border-style: inset;
+		}
+
+.chiefs a:visited, .chiefs a:link, p.kc{
+		color: gold;
+	}
+
+.raiders{
+	background-color: black;
+	border-style: inset;
+}
+
+.raiders a:visited, .raiders a:link, p.oakland{
+		color: silver;
+	}
+	
+p.denver, p.la, p.kc, p.oakland{
+		font-size: 125%;
+	}
+
+.mid, p.oakland, p.kc, p.la, p.denver{
+		text-align: center;
+	}
+	
+
+		
