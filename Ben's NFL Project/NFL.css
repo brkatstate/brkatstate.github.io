@@ -88,9 +88,235 @@ h1 {
 		
 .seahawks a:visited, .seahawks a:link, p.seattle{
 		color: #4dff00;
-		}				
+		}	
+		
+.ravens{
+		background-color: #280353;
+		border-style: inset;
+		}
+		
+.ravens a:visited, .ravens a:link, p.baltimore{
+		color: #D0B240;
+		}	
+		
+.bengals{
+		background-color: #FB4F14;
+		border-style: inset;
+		}
+		
+.bengals a:visited, .bengals a:link, p.cincy{
+		color: #000000;
+		}	
+		
+.browns{
+		background-color: #382F2D;
+		border-style: inset;
+		}
+		
+.browns a:visited, .browns a:link, p.cleve{
+		color: #EB3300;
+		}	
+		
+.steelers{
+		background-color: #FFB81C;
+		border-style: inset;
+		}
+		
+.steelers a:visited, .steelers a:link, p.pitt{
+		color: #101820; 
+		}	
+		
+.bears{
+		background-color: #051C2C;
+		border-style: inset;
+		}
+		
+.bears a:visited, .bears a:link, p.chicago{
+		color: #DC4405; 
+		}	
+		
+.lions{
+		background-color: #0069B1;
+		border-style: inset;
+		}
+		
+.lions a:visited, .lions a:link, p.detroit{
+		color: #A2AAAD; 
+		}	
+		
+.packers{
+		background-color: #175E33;
+		border-style: inset;
+		}
+		
+.packers a:visited, .packers a:link, p.gb{
+		color: #FFB81C; 
+		}	
+		
+.vikings{
+		background-color: #512D6D;
+		border-style: inset;
+		}
+		
+.vikings a:visited, .vikings a:link, p.minny{
+		color: #FFB81C; 
+		}
+		
+.texans{
+		background-color: #091F2C;
+		border-style: inset;
+		}
+		
+.texans a:visited, .texans a:link, p.houston{
+		color: #A6192E; 
+		}	
+		
+.texans{
+		background-color: #091F2C;
+		border-style: inset;
+		}
+		
+.texans a:visited, .texans a:link, p.houston{
+		color: #A6192E; 
+		}		
+		
+.colts{
+		background-color: #001489;
+		border-style: inset;
+		}
+		
+.colts a:visited, .colts a:link, p.indy{
+		color: #FFFFFF; 
+		}		
+		
+.jaguars{
+		background-color: rgb(16,24,32);
+		border-style: inset;
+		}
+		
+.jaguars a:visited, .jaguars a:link, p.jack{
+		color: #D49F12; 
+		}	
+		
+.titans{
+		background-color: #648FCC;
+		border-style: inset;
+		}
+		
+.titans a:visited, .titans a:link, p.tenn{
+		color: #0D254C; 
+		}	
+		
+.falcons{
+		background-color: #A6192E;
+		border-style: inset;
+		}
+		
+.falcons a:visited, .falcons a:link, p.atlanta{
+		color: rgb(16,24,32); 
+		}		
+		
+.panthers{
+		background-color: #0085CA;
+		border-style: inset;
+		}
+		
+.panthers a:visited, .panthers a:link, p.carolina{
+		color: rgb(16,24,32); 
+		}	
+
+.saints{
+		background-color: #A28D5B;
+		border-style: inset;
+		}
+		
+.saints a:visited, .saints a:link, p.no{
+		color: rgb(16,24,31); 
+		}	
+		
+.bucs{
+		background-color: #C8102E;
+		border-style: inset;
+		font-size: 0.96984em;
+		}
+		
+.bucs a:visited, .bucs a:link, p.tb{
+		color: #8C9093; 
+		}	
+		
+.bills{
+		background-color: #00338D;
+		border-style: inset;
+		}
+		
+.bills a:visited, .bills a:link, p.buffalo{
+		color: #C60C30; 
+		}	
+		
+.dolphins{
+		background-color: #008E97;
+		border-style: inset;
+		}
+		
+.dolphins a:visited, .dolphins a:link, p.miami{
+		color: #F58220; 
+		}	
+		
+.patriots{
+		background-color: #0C2340;
+		border-style: inset;
+		}
+		
+.patriots a:visited, .patriots a:link, p.ne{
+		color: #C8102E; 
+		}	
+		
+.jets{
+		background-color: #0C371D;
+		border-style: inset;
+		}
+		
+.jets a:visited, .jets a:link, p.nyj{
+		color: #FFFFFF; 
+		}		
+		
+.cowboys{
+		background-color: #041E42;
+		border-style: inset;
+		}
+		
+.cowboys a:visited, .cowboys a:link, p.dallas{
+		color: #869397; 
+		}		
+		
+.giants{
+		background-color: #001E62;
+		border-style: inset;
+		}
+		
+.giants a:visited, .giants a:link, p.nyg{
+		color: #A6192E; 
+		}	
+		
+.eagles{
+		background-color: #004851;
+		border-style: inset;
+		}
+		
+.eagles a:visited, .eagles a:link, p.phil{
+		color: rgb(0,0,0); 
+		}
+		
+.redskins{
+		background-color: #862633;
+		border-style: inset;
+		}
+		
+.redskins a:visited, .redskins a:link, p.wash{
+		color: #FFCD00; 
+		}																	
 				
-p.denver, p.la, p.kc, p.oakland, p.arizona, p.laRams, p.sf, p.seattle{
+p.denver, p.la, p.kc, p.oakland, p.arizona, p.laRams, p.sf, p.seattle, p.baltimore, p.cincy, p.cleve, p.pitt, p.chicago, p.detroit, p.gb, p.minny, p.houston, p.indy, p.jack, p.tenn, p.atlanta, p.carolina, p.no, p.tb, p.buffalo, p.miami, p.ne, p.nyj, p.dallas, p.nyg, p.phil, p.wash{
 		font-size: 125%;
 		text-align: center;
 	}
