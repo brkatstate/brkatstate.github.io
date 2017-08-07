@@ -1,4 +1,53 @@
 body{
 		background-color: darkblue;
 		color: orange;
+		font-size: medium;
 		}
+
+table {
+    margin-left:    20px;
+    margin-right:   20px;
+    border: thin solid black;
+    border-collapse:    collapse;
+    }
+    
+td, th  {
+    border: thin dotted gray;
+    padding: 5px;
+    }
+    
+caption {
+	font-size: 1.5em;
+    font-style: italic;
+    padding-top:    8px;
+    }
+    
+.center{
+    text-align: center;
+    }
+    
+.cent{
+    margin:0 auto;
+}
+    
+.right{
+    text-align: right;
+    }
+    
+th{
+    background-color:   #cc6600;
+    }
+    
+.cellcolor{
+    background-color:   #fcba7a;
+    }
+    
+table table th{
+    background-color: white;
+    }
+    
+li {
+    list-style-image:   url(images/backpack.gif);
+    padding-top:    5px;
+    margin-left:    20px;
+    }
