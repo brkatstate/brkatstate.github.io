@@ -1,6 +1,6 @@
 body {
 	font-family: arial;
-	font-size: 15px;
+	font-size: small;
 		}
 
 h1 {
@@ -13,19 +13,18 @@ h1 {
 		*display: inline;
 	}
 	
-.twenty-five-perc
-{
-	width: 22%;
+.twenty-five-perc {
+	width: 10%;
 	}
 
 .broncos{
-		margin-left: 5%;
+		margin-left: 0%;
 		background-color: #fc4c02;
 		border-style: inset;
 		}
 		
 .broncos a:visited, .broncos a:link, p.denver{
-		color: darkblue;
+		color: navy;
 		}
 		
 .chargers{
@@ -34,7 +33,7 @@ h1 {
 		}
 		
 .chargers a:visited, .chargers a:link, p.la{
-		color: yellow;
+		color: #ffb81c;
 		}
 		
 .chiefs{
@@ -43,25 +42,73 @@ h1 {
 		}
 
 .chiefs a:visited, .chiefs a:link, p.kc{
-		color: gold;
+		color: #ffb81c;
 	}
 
 .raiders{
-	background-color: black;
-	border-style: inset;
-}
+		background-color: #101820;
+		border-style: inset;
+	}
 
 .raiders a:visited, .raiders a:link, p.oakland{
-		color: silver;
+		color: #a5acaf;
 	}
 	
-p.denver, p.la, p.kc, p.oakland{
-		font-size: 125%;
-	}
+.cardinals{
+		background-color: #9b2743;
+		border-style: inset;
+		}
 
-.mid, p.oakland, p.kc, p.la, p.denver{
+.cardinals a:visited, .cardinals a:link, p.arizona{
+		color: #ffcd00;
+		}
+
+.rams{
+		background-color: #041e42;
+		border-style: inset;
+		}
+		
+.rams a:visited, .rams a:link, p.laRams{
+		color: #866d4b;
+		}
+		
+.niners{
+		background-color: #9b2743;
+		border-style: inset;
+		}
+		
+.niners a:visited, .niners a:link, p.sf{
+		color: white;
+		}	
+		
+.seahawks{
+		background-color: #001433;
+		border-style: inset;
+		}
+		
+.seahawks a:visited, .seahawks a:link, p.seattle{
+		color: #4dff00;
+		}				
+				
+p.denver, p.la, p.kc, p.oakland, p.arizona, p.laRams, p.sf, p.seattle{
+		font-size: 125%;
 		text-align: center;
 	}
-	
+
+.marg{
+		margin-right: 5%;
+}
+
+.head{
+		font-size: 1.75em;
+		padding-left: 17%;
+		font-weight: bold;
+}
+
+.head2{
+		font-size: 1.75em;
+		padding-left: 40%;
+		font-weight: bold;
+}
 
 		
