@@ -1,0 +1,38 @@
+body {
+	font-family: arial;
+	font-size: small;
+		}
+
+h1#header {
+		border-bottom: 1px solid black;
+		text-align: center;
+		}
+		
+.inline-block {
+		zoom: 1;
+		*display: inline;
+	}
+	
+.twenty-five-perc {
+	width: 20%;
+	}
+
+.marg{
+		margin-right: 5%;
+}
+
+.head{
+		font-size: 1.75em;
+		padding-left: 17%;
+		font-weight: bold;
+	}
+
+.head2{
+		font-size: 1.75em;
+		padding-left: 40%;
+		font-weight: bold;
+	}
+
+
+
+		
