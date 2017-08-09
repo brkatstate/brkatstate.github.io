@@ -22,12 +22,18 @@ h1#header {
 }
 
 #web{
-	background-color: yellow;
+	border-style: inset;
+	background-color: orange;
 }
 
 #java{
-	background-color: red;
-}
+	border-style: inset;
+	background-color: darkred;
+	}
+
+#java a:link, #java a:visited{
+	color: white;
+	}
 
 .center{
 	text-align: center;
