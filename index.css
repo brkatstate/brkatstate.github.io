@@ -1,6 +1,6 @@
 body {
 	font-family: arial;
-	font-size: small;
+	font-size: medium;
 		}
 
 h1#header {
@@ -14,23 +14,27 @@ h1#header {
 	}
 	
 .twenty-five-perc {
-	width: 20%;
+	width: 22%;
 	}
 
 .marg{
 		margin-right: 5%;
 }
 
-.head{
-		font-size: 1.75em;
-		padding-left: 17%;
-		font-weight: bold;
-	}
+#web{
+	background-color: yellow;
+}
 
-.head2{
-		font-size: 1.75em;
-		padding-left: 40%;
-		font-weight: bold;
+#java{
+	background-color: red;
+}
+
+.center{
+	text-align: center;
+}
+
+.inline{
+	display: inline;
 	}
 
 
